@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(70, 70, 70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centered {
+  display: block;
+  float: none;
+  margin: auto;
+}
+
+.fill {
+	width: 100%;
+}
+
+#class-header {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Permanent Marker", serif;
+  color: white;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.buttons {
+  height: 75px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  font-size: 40px;
+  font-family: 'Teko', serif;
+  color: white !important;
+  display: block;
+  float: none;
+  margin: auto;
+  margin-bottom: 1%;
+  background-color: rgba(0, 255, 255, 0.1);
+  border-style: groove;
+  border-color: rgba(0, 0, 255, 1);
+  border-width: medium;
+  animation-fill-mode: backwards;
+  -webkit-animation: button-load 0.5s;
+  animation: button-load 0.5s;
+}
+
+.buttons:hover {
+  -webkit-animation: button-hover 0.5s;
+  animation: button-hover 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes button-hover {
+  0% {
+    background-color: rgba(0, 255, 255, 0.1);
+  }
+  100% {
+    background-color: rgba(0, 255, 255, 0.75);
+  }
+}
+
+@keyframes button-hover {
+  0% {
+    background-color: rgba(0, 255, 255, 0.1);
+  }
+  100% {
+    background-color: rgba(0, 255, 255, 0.75);
+  }
+}
+
+@-webkit-keyframes button-load {
+  0% {
+    background-color: rgba(0, 255, 255, 0.75)
+  }
+  100% {
+    background-color: rgba(0, 255, 255, 0.1)
+  }
+}
