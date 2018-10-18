@@ -3,4 +3,4 @@ Just a list of my school websites to make it easier to get to them. Thought I'd 
 
 **I also have a version of this setup on an S3 server so you can take a quick look yourself without downloading**
 
-Link here: [https://s3.amazonaws.com/school.web/index.html]
+Link here: [https://s3.amazonaws.com/hosting.web/school/index.html]
