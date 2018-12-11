@@ -78,3 +78,12 @@ a {
     background-color: rgba(0, 255, 255, 0.1)
   }
 }
+
+@keyframes button-load {
+  0% {
+    background-color: rgba(0, 255, 255, 0.75)
+  }
+  100% {
+    background-color: rgba(0, 255, 255, 0.1)
+  }
+}
